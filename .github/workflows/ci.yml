@@ -15,23 +15,21 @@ jobs:
           # 根据网上资料查询此处可以设置为 false。https://github.com/actions/checkout
           persist-credentials: false
  
-      # 安装 pnpm
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
- 
       # 设置node的版本
       - name: Use Node.js
         # 使用 actions/setup-node@v3 库安装 nodejs，with 提供了一个参数 node-version 表示要安装的 nodejs 版本
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-          cache: 'pnpm'
+          cache: 'npm'
+ 
+      # 安装依赖
+      - name: Install dependencies
+        run: npm install
  
       # 打包成静态文件
       - name: Build
-        run: pnpm install && pnpm build
+        run: npm run docs:build
  
       # 部署到GitHub Pages - 也就是将打包内容发布到GitHub Pages
       - name: Deploy
