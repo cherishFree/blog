@@ -17,10 +17,10 @@ jobs:
  
       # 设置node的版本
       - name: Use Node.js
-        # 使用 actions/setup-node@v3 库安装 nodejs，with 提供了一个参数 node-version 表示要安装的 nodejs 版本
-        uses: actions/setup-node@v3
+        # 使用 actions/setup-node@v4 库安装 nodejs，with 提供了一个参数 node-version 表示要安装的 nodejs 版本
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: '20.19.0'
           cache: 'npm'
  
       # 安装依赖
