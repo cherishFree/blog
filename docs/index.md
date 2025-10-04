@@ -21,6 +21,6 @@ features:
   - title: 什么是 Stream
     details: Stream 是对集合数据的高级抽象，它就像一条流水线，把数据从源头（如 List）经过一系列处理，最终输出结果。
   - title: IDEA 代码片段格式化技巧
-    details: 在使用IDEA开发时，你只想格式化你所新添加的代码时，只需要选中你新添加的代码后，按下ctrl+alt+l建就可以了。
+    details: 在使用IDEA开发时，你只想格式化你所新添加的代码时，只需要选中你新添加的代码后，按下ctrl+alt+l建就完成了。
 ---
 
