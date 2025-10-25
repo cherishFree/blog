@@ -18,7 +18,8 @@ export default defineConfig({
       {
         text: 'Java笔记',
         items: [
-          { text: 'Java Stream', link: '/java/stream' }
+          { text: 'Java Stream', link: '/java/stream' },
+          { text: 'MyBatis 符号转义', link: '/java/mybatis' }
         ]
       },
       {
