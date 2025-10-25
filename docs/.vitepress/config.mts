@@ -25,7 +25,8 @@ export default defineConfig({
       {
         text: 'IDEA小技巧',
         items: [
-          { text: '格式化代码片段', link: '/idea/format' }
+          { text: '格式化代码片段', link: '/idea/format' },
+          { text: '多选处理', link: '/idea/multiple' }
         ]
       }
     ],
