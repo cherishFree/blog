@@ -28,6 +28,12 @@ export default defineConfig({
           { text: '格式化代码片段', link: '/idea/format' },
           { text: '多选处理', link: '/idea/multiple' }
         ]
+      },
+      {
+        text: 'JavaScript笔记',
+        items: [
+          { text: '格式化代码片段', link: '/js/splice' }
+        ]
       }
     ],
 
