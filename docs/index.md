@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Beria的个人博客"
-  text: "一个高级程序员的成长之路"
-  tagline: 当你的才华撑不起你的野心时，那你就应该静下心来读书！
+  text: "高级程序员成长之路"
+  tagline: 当才华撑不起野心时，就该静下心读书！
   actions:
     - theme: brand
       text: 首页
