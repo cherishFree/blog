@@ -30,9 +30,15 @@ export default defineConfig({
         ]
       },
       {
+        text: 'notepad小技巧',
+        items: [
+          { text: '快速提取 SQL 表名的技巧', link: '/notepad/sql' }          
+        ]
+      },
+      {
         text: 'JavaScript笔记',
         items: [
-          { text: '格式化代码片段', link: '/js/splice' }
+          { text: 'splice() 与 slice()', link: '/js/splice' }
         ]
       }
     ],
