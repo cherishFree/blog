@@ -40,6 +40,12 @@ export default defineConfig({
         items: [
           { text: 'splice() 与 slice()', link: '/js/splice' }
         ]
+      },
+       {
+        text: 'VS Code小技巧',
+        items: [
+          { text: '常用快捷键总表', link: '/vscode/keyMap' }
+        ]
       }
     ],
 
