@@ -1,5 +1,3 @@
-
-
 # VS Code 常用快捷键总表
 
 | 功能                     | Windows / Linux        | macOS                  |
@@ -16,3 +14,6 @@
 | 快速打开文件             | `Ctrl + P`             | `Cmd + P`              |
 | 返回上一个位置           | `Alt + ←`              | `Ctrl + -`             |
 | 前进到下一个位置         | `Alt + →`              | `Ctrl + Shift + -`     |
+| 打开/关闭侧边栏          | `Ctrl + B`             | `Cmd + B`              |
+| 查看当前文件结构（大纲） | `Ctrl + Shift + O`     | `Cmd + Shift + O`      |
+| 跨文件符号搜索           | `Ctrl + T`             | `Cmd + T`              |
