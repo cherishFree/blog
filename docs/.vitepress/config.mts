@@ -38,7 +38,8 @@ export default defineConfig({
       {
         text: 'JavaScript笔记',
         items: [
-          { text: 'splice() 与 slice()', link: '/js/splice' }
+          { text: 'splice() 与 slice()', link: '/js/splice' },
+          { text: '自动浏览帖子脚本', link: '/js/auto_browsing' }
         ]
       },
        {
