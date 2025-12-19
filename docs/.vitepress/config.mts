@@ -47,6 +47,12 @@ export default defineConfig({
         items: [
           { text: '常用快捷键总表', link: '/vscode/keyMap' }
         ]
+      },
+       {
+        text: 'Windows脚本',
+        items: [
+          { text: '提醒脚本', link: '/cmd/alert' }
+        ]
       }
     ],
 
