@@ -54,6 +54,12 @@ export default defineConfig({
         items: [
           { text: '提醒脚本', link: '/cmd/alert' }
         ]
+      },
+      {
+        text: 'Jenkins',
+        items: [
+          { text: '前端访问卡顿优化实战', link: '/jenkins/performance-optimization' }
+        ]
       }
     ],
 
