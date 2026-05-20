@@ -60,6 +60,12 @@ export default defineConfig({
         items: [
           { text: '前端访问卡顿优化实战', link: '/jenkins/performance-optimization' }
         ]
+      },
+      {
+        text: '其他',
+        items: [
+          { text: '赤度 ABM066 功能键表格', link: '/other/chiduABM066' }
+        ]
       }
     ],
 
