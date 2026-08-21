@@ -67,7 +67,8 @@ export default defineConfig({
           { text: '赤度 ABM066 功能键表格', link: '/other/chiduABM066' },
           { text: 'WSL 使用 Windows v2rayN 代理', link: '/other/wslProxy' },
           { text: 'Hermes 配置 opencode 免费模型', link: '/other/hermesZenProxy' },
-          { text: 'WSL 部署 SonarQube 并配置扫描', link: '/other/sonarqubeDocker' }
+          { text: 'WSL 部署 SonarQube 并配置扫描', link: '/other/sonarqubeDocker' },
+          { text: 'GitLab+Runner+SonarQube CI/CD 搭建', link: '/other/gitlab-sonarqube-cicd-setup' }
         ]
       }
     ],
