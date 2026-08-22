@@ -64,6 +64,7 @@ export default defineConfig({
       {
         text: '其他',
         items: [
+          { text: '命令行 Help 系统完整指南', link: '/other/cli-help-guide' },
           { text: '赤度 ABM066 功能键表格', link: '/other/chiduABM066' },
           { text: 'WSL 使用 Windows v2rayN 代理', link: '/other/wslProxy' },
           { text: 'Hermes 配置 opencode 免费模型', link: '/other/hermesZenProxy' },
