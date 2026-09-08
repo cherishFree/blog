@@ -52,7 +52,8 @@ export default defineConfig({
        {
         text: 'Windows脚本',
         items: [
-          { text: '提醒脚本', link: '/cmd/alert' }
+          { text: '提醒脚本', link: '/cmd/alert' },
+          { text: '封装自定义命令', link: '/cmd/custom-command' }
         ]
       },
       {
